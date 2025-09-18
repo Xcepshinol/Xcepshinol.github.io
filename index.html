@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nav-bar-l">
+            <div class="nav-bar-l-text">疲れた</div>
+            <div class="details">
+                <div class="detail-l-1"></div>
+                <div class="detail-l-2"></div>
+                <div class="detail-l-3"></div>
+            </div>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/davis-yew-a40039239/"><img class="social-im" src="1384014.webp"/></a>
+                <a href="mailto:d2yew@uwaterloo.ca"><img class="social-im" src="3178158.webp"/></a>
+                <a href="https://github.com/Xcepshinol"><img class="social-im" src="25231.webp"/></a>
+            </div>
+        </div>
+
+        <div class="nav-bar-r">
+            <button id="playPause" class="icon-btn" aria-label="Play" title="Play">
+                <span id="playPauseIcon"></span>
+            </button>
+
+            <div id="date"></div>
+              |  
+            <div id="time">
+                <span id="hours"></span>
+                <span id="colon">:</span>
+                <span id="minutes"></span>
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <section class="l-row">
+            <div class="left-col">
+                <img class="small-im" src="a_cartoon_of_a_girl_standing_next_to_a_car.webp"/>
+                <div class="fetch">
+                    <p>
+                    Davis Yew <br>
+                    ----------<br>
+                    <span class="word-color">Uni: </span>University Of Waterloo<br>
+                    <span class="word-color">Deg: </span>Undergraduate 2.0<br>
+                    <span class="word-color">Prgm: </span>Meachatronics Engineering<br>
+                    <span class="word-color">Projs:</span>
+                    </p>
+
+                    <div class="projects-container">
+                        <div class="projects-folder">
+                            <button class="folder software"><img class="folder-icon" src="folder-svgrepo-com.svg"/></button>
+                            Software
+                        </div>
+                        <div class="projects-folder">
+                            <button class="folder hardware"><img class="folder-icon" src="folder-svgrepo-com.svg"/></button>
+                            Hardware
+                        </div>
+                        <div class="projects-folder">
+                            <button class="folder personal"><img class="folder-icon" src="folder-svgrepo-com.svg"/></button>
+                            Misc.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="equalizer" id="equalizer" aria-label="Animated equalizer" role="img"></div>
+        </section>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="modal-title">Software</div>
+            <button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum magna velit, <br> 
+            in luctus erat venenatis vitae. Pellentesque in sodales dui. Nunc condimentum nisl nulla, <br> 
+            a vulputate ipsum blandit at. Quisque ut libero ultrices, mollis ante pulvinar, semper leo. <br> 
+            Phasellus sit amet blandit erat, vel hendrerit elit. In lobortis ipsum vel velit ullamcorper <br> 
+            tincidunt. Pellentesque suscipit pulvinar ligula eget euismod. Integer non elit orci. Integer <br> 
+            quis nibh consectetur, ullamcorper velit non, sagittis ex. Fusce eu turpis ac nunc semper <br> 
+            ullamcorper. Aliquam sapien turpis, commodo sed diam a, pellentesque auctor nibh.
+        </div>
+    </div>
+
+    <div class="modal-1">
+        <div class="modal-header-1">
+            <div class="modal-title">Hardware</div>
+            <button class="close-button-1">&times;</button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum magna velit, <br> 
+            in luctus erat venenatis vitae. Pellentesque in sodales dui. Nunc condimentum nisl nulla, <br> 
+            a vulputate ipsum blandit at. Quisque ut libero ultrices, mollis ante pulvinar, semper leo. <br> 
+            Phasellus sit amet blandit erat, vel hendrerit elit. In lobortis ipsum vel velit ullamcorper <br> 
+            tincidunt. Pellentesque suscipit pulvinar ligula eget euismod. Integer non elit orci. Integer <br> 
+            quis nibh consectetur, ullamcorper velit non, sagittis ex. Fusce eu turpis ac nunc semper <br> 
+            ullamcorper. Aliquam sapien turpis, commodo sed diam a, pellentesque auctor nibh.
+        </div>
+    </div>
+
+    <div class="modal-2">
+        <div class="modal-header-2">
+            <div class="modal-title">Misc.</div>
+            <button class="close-button-2">&times;</button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum magna velit, <br> 
+            in luctus erat venenatis vitae. Pellentesque in sodales dui. Nunc condimentum nisl nulla, <br> 
+            a vulputate ipsum blandit at. Quisque ut libero ultrices, mollis ante pulvinar, semper leo. <br> 
+            Phasellus sit amet blandit erat, vel hendrerit elit. In lobortis ipsum vel velit ullamcorper <br> 
+            tincidunt. Pellentesque suscipit pulvinar ligula eget euismod. Integer non elit orci. Integer <br> 
+            quis nibh consectetur, ullamcorper velit non, sagittis ex. Fusce eu turpis ac nunc semper <br> 
+            ullamcorper. Aliquam sapien turpis, commodo sed diam a, pellentesque auctor nibh.
+        </div>
+    </div>
+</body>
+</html>
